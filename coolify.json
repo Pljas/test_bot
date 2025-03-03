@@ -2,6 +2,6 @@
   "name": "monitoring-bot",
   "type": "python",
   "pythonVersion": "3.11",
-  "startCommand": "python run.py",
+  "startCommand": "python -u run.py & wait",
   "installCommand": "pip install -r requirements.txt"
 }
