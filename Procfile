@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt && python -u run.py
+web: python -m pip install -r requirements.txt && python -u run.py
