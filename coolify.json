@@ -1,0 +1,7 @@
+{
+  "name": "monitoring-bot",
+  "type": "python",
+  "pythonVersion": "3.11",
+  "startCommand": "python run.py",
+  "installCommand": "pip install -r requirements.txt"
+}
