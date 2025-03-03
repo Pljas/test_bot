@@ -2,11 +2,10 @@
   "name": "monitoring-bot",
   "type": "python",
   "pythonVersion": "3.11",
-  "installCommand": "python -m venv /opt/venv && . /opt/venv/bin/activate && pip install -r requirements.txt && pip install supervisor",
-  "startCommand": "supervisord -c supervisord.conf",
+  "startCommand": "bash start.sh",
   "phases": {
     "setup": {
-      "nixPkgs": ["python3", "gcc", "supervisor"]
+      "nixPkgs": ["python3", "gcc"]
     }
   }
 }
