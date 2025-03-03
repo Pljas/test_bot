@@ -2,10 +2,14 @@
   "name": "monitoring-bot",
   "type": "python",
   "pythonVersion": "3.11",
-  "startCommand": "bash start.sh",
+  "installCommand": "pip install -r requirements.txt",
+  "startCommand": "python -u run.py",
   "phases": {
     "setup": {
       "nixPkgs": ["python3", "gcc"]
     }
+  },
+  "variables": {
+    "PYTHONUNBUFFERED": "1"
   }
 }
